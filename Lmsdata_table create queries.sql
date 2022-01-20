@@ -173,3 +173,9 @@ CREATE TABLE user_details (
   PRIMARY KEY (id),
   UNIQUE KEY UK_4d9rdl7d52k8x3etihxlaujvh (email)
 ); 
+
+------------------------user_roles--------------------------------
+CREATE TABLE user_roles (
+  user_id int(11)NOT NULL ,
+  role_name varchar(100)
+);

@@ -103,3 +103,16 @@ INSERT INTO user_details(email,first_name,last_name,password,contact_number,veri
 Values('sushilmule@gmail.com','Sushil','Mule','Sushil@0034',9997581616,1);
 INSERT INTO user_details(email,first_name,last_name,password,contact_number,verified)
 Values('dayaambad@gmail.com','Daya','Ambad','Daya#58234',9897890897,1);
+
+
+------------------------user_roles--------------------------------
+INSERT INTO user_roles(user_id ,role_name)
+Values(1,'FullStack Developer');
+INSERT INTO user_roles(user_id ,role_name)
+Values(2,'Dot Net Developer');
+INSERT INTO user_roles(user_id ,role_name)
+Values(3,'Python Developer');
+INSERT INTO user_roles(user_id ,role_name)
+Values(4,'Testing Engineer');
+INSERT INTO user_roles(user_id ,role_name)
+Values(5,'Trainee Engineer');
