@@ -54,3 +54,15 @@ INSERT INTO candidates_bank_det_check(id,candidate_id ,field_name ,is_verified,l
 VALUES(4,4,1,1,'2022-01-20 15:16:20',1,'2022-01-20 15:16:11',1);
 INSERT INTO candidates_bank_det_check(id,candidate_id ,field_name ,is_verified,lastupd_stamp,lastupd_user,creator_stamp,creator_user)
 VALUES(5,5,1,1,'2022-01-20 15:16:20',1,'2022-01-20 15:16:11',1);
+
+--------------candidate_qualification------------------------------------
+INSERT INTO candidate_qualification(candidate_id,diploma,degree_name, is_degree_name_verified,employee_decipline,is_employee_decipline_verified,passing_year,is_passing_year_verified,aggr_per,final_year_per,is_final_year_per_verified,training_institute,is_training_institute_verified,training_duration_month,is_training_duration_month_verified,other_training,is_other_training_verified,creator_stamp,creator_user)
+VALUES(1,0,'M.Com',1,'Good',1,2018,1,78.91,80,1,'G.H.Raisoni College',1,6,1,'NO',0,'2018-11-15 15:03:33',1);
+INSERT INTO candidate_qualification(candidate_id,diploma,degree_name, is_degree_name_verified,employee_decipline,is_employee_decipline_verified,passing_year,is_passing_year_verified,aggr_per,final_year_per,is_final_year_per_verified,training_institute,is_training_institute_verified,training_duration_month,is_training_duration_month_verified,other_training,is_other_training_verified,creator_stamp,creator_user)
+VALUES(2,1,'BE',1,'Very Good',1,2019,1,68.91,72,1,'GOV ENG College',1,9,1,'Python,Java',1,'2019-10-15 12:03:33',2);
+INSERT INTO candidate_qualification(candidate_id,diploma,degree_name, is_degree_name_verified,employee_decipline,is_employee_decipline_verified,passing_year,is_passing_year_verified,aggr_per,final_year_per,is_final_year_per_verified,training_institute,is_training_institute_verified,training_duration_month,is_training_duration_month_verified,other_training,is_other_training_verified,creator_stamp,creator_user)
+VALUES(3,1,'BTech',1,'Better',1,2020,1,54,60,1,'Vikhe Patil Eng Col',1,6,1,'Dot Net core,C-Sharp,Java',1,'2020-01-15 10:13:43',3);
+INSERT INTO candidate_qualification(candidate_id,diploma,degree_name, is_degree_name_verified,employee_decipline,is_employee_decipline_verified,passing_year,is_passing_year_verified,aggr_per,final_year_per,is_final_year_per_verified,training_institute,is_training_institute_verified,training_duration_month,is_training_duration_month_verified,other_training,is_other_training_verified,creator_stamp,creator_user)
+VALUES(4,0,'BSC',1,'Best',1,2021,1,81,82,1,'MIT College',1,6,1,'Java',1,'2021-02-20 05:03:33',4);
+INSERT INTO candidate_qualification(candidate_id,diploma,degree_name, is_degree_name_verified,employee_decipline,is_employee_decipline_verified,passing_year,is_passing_year_verified,aggr_per,final_year_per,is_final_year_per_verified,training_institute,is_training_institute_verified,training_duration_month,is_training_duration_month_verified,other_training,is_other_training_verified,creator_stamp,creator_user)
+VALUES(5,1,'MBA',1,'Good',1,2019,1,70,70,1,'D.Y Patil College',1,6,1,'Marketing',1,'2019-09-25 09:00:53',5);
