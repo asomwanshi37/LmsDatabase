@@ -15,3 +15,17 @@ VALUES('Ankush','Shamrao','Ambad','ankush98@gmail.com','9598789789','Kalyan','20
 
 INSERT INTO fellowship_candidates(id,first_name,middle_name,last_name,email,mobile_num,hired_city,hired_date,degree, aggr_per,current_pincode,permanent_pincode,hired_lab,attitude_remark,communication_remark,knowledge_remark,birth_date,is_birth_date_verified, parent_name,parent_occupation,parent_mobile_num,parent_annual_sal,local_addr,permanent_addr,photo_path,joining_date,candidate_status,personal_info_filled,bank_info_filled, educational_info_filled,doc_status,remark,creator_stamp,creator_user)
 Values('5','Kiran','Ramesh','Deshmukh','kiran@gmail.com','7589646777','Kaij','2018-05-02 10:00:00','LLB','55.97','386987','986987','Wipro','Better','Best','Good','1992-12-12','1','Ramesh','Teacher','8000325687','90000.00','Kaij','Kaij','Photo','2017-12-09','Ok','1','1','1','Submit','Good','2019-12-10','1');
+
+
+-----------------candidates_personal_details_check-------------------------------
+INSERT INTO candidates_personal_details_check( candidate_id,field_name,is_verified,lastupd_stamp,lastupd_user,creator_stamp, creator_user)
+VALUES(1,1,1,'2022-01-20 13:13:03',3,'2022-01-20 13:13:03',2);
+INSERT INTO candidates_personal_details_check( candidate_id,field_name,is_verified,lastupd_stamp,lastupd_user,creator_stamp, creator_user)
+VALUES(2,2,1,'2021-01-20 12:23:33',4,'2021-11-21 10:13:03',3);
+INSERT INTO candidates_personal_details_check( candidate_id,field_name,is_verified,lastupd_stamp,lastupd_user,creator_stamp, creator_user)
+VALUES(3,3,1,'2020-08-12 11:33:43',5,'2020-08-14 11:43:43',4);
+INSERT INTO candidates_personal_details_check( candidate_id,field_name,is_verified,lastupd_stamp,lastupd_user,creator_stamp, creator_user)
+VALUES(4,4,1,'2019-09-14 10:13:53',2,'2019-09-16 12:53:13',5);
+INSERT INTO candidates_personal_details_check( candidate_id,field_name,is_verified,lastupd_stamp,lastupd_user,creator_stamp, creator_user)
+VALUES(5,5,1,'2018-11-16 09:03:13',1,'2018-11-20 09:23:33',6);
+INSERT INTO candidates_personal_details_check( candidate_id,field_name,is_verified,lastupd_stamp,lastupd_user,creator_stamp, creator_user)
