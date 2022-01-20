@@ -128,3 +128,15 @@ INSERT INTO company(name,address,location,status,creator_stamp,creator_user)
 Values(4,'Viman Nagar','Thane',1,'2020-01-20 15:44:00',4);
 INSERT INTO company(name,address,location,status,creator_stamp,creator_user)
 Values(5,'Camp City','Nagpur',1,'2020-01-19 13:00:40',5);
+
+-------------------------tech_type----------------------------------
+INSERT INTO tech_type (id,type_name,cur_status,creator_stamp,creator_user)
+Values(1,'Ranged Gun Tech','k','2022-01-17 12:10:50',1);
+INSERT INTO tech_type (id,type_name,cur_status,creator_stamp,creator_user)
+Values(2,'Buff Tech','k','2022-01-16 11:00:00',1);
+INSERT INTO tech_type (id,type_name,cur_status,creator_stamp,creator_user)
+Values(3,'Gun Ranged Sonic Vibranium Tech','k','2022-01-18 10:11:10',1);
+INSERT INTO tech_type (id,type_name,cur_status,creator_stamp,creator_user)
+Values(4,'Ranged Energy Sonic Tech','k','2022-01-19 15:40:00',1);
+INSERT INTO tech_type (id,type_name,cur_status,creator_stamp,creator_user)
+Values(5,'Debuff Tech','k','2022-01-20 16:19:40',1);
