@@ -10,3 +10,8 @@ VALUES('Vinit','Vasant','Desai','vvdesai55@gmail.com',8888888888,'Thane','2011-1
 INSERT INTO  hired_candidates(first_name,middle_name,last_name,email,mobile_num,hired_city,hired_date,degree,aggr_per,current_pincode,permanent_pincode,hired_lab,attitude_remark,communication_remark,knowledge_remark, status, creator_stamp,creator_user)
 VALUES('Ankush','Shamrao','Ambad','ankush98@gmail.com','9598789789','Kalyan','2019-10-20 06:20:40','MSC','68.88','600288','431518','Honda','V_Good','Good','Good','Good','2016-05-27 18:03:55','7');
 
+-- fellowship engineers microservice
+-- fellowship_engineers
+
+INSERT INTO fellowship_candidates(id,first_name,middle_name,last_name,email,mobile_num,hired_city,hired_date,degree, aggr_per,current_pincode,permanent_pincode,hired_lab,attitude_remark,communication_remark,knowledge_remark,birth_date,is_birth_date_verified, parent_name,parent_occupation,parent_mobile_num,parent_annual_sal,local_addr,permanent_addr,photo_path,joining_date,candidate_status,personal_info_filled,bank_info_filled, educational_info_filled,doc_status,remark,creator_stamp,creator_user)
+Values('5','Kiran','Ramesh','Deshmukh','kiran@gmail.com','7589646777','Kaij','2018-05-02 10:00:00','LLB','55.97','386987','986987','Wipro','Better','Best','Good','1992-12-12','1','Ramesh','Teacher','8000325687','90000.00','Kaij','Kaij','Photo','2017-12-09','Ok','1','1','1','Submit','Good','2019-12-10','1');
