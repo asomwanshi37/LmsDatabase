@@ -179,3 +179,14 @@ CREATE TABLE user_roles (
   user_id int(11)NOT NULL ,
   role_name varchar(100)
 );
+------------------------------company---------------------------
+CREATE TABLE company(
+  id int(11) NOT NULL AUTO_INCREMENT,
+  name int(11) NOT NULL,
+  address varchar(150) DEFAULT NULL,
+  location varchar(50) DEFAULT NULL,
+  status int(3) DEFAULT 1,
+  creator_stamp datetime DEFAULT NULL,
+  creator_user int(11) DEFAULT NULL,
+  PRIMARY KEY (id)
+);

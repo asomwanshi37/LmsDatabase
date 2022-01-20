@@ -116,3 +116,15 @@ INSERT INTO user_roles(user_id ,role_name)
 Values(4,'Testing Engineer');
 INSERT INTO user_roles(user_id ,role_name)
 Values(5,'Trainee Engineer');
+
+-----------------company---------------------------------
+INSERT INTO company(name,address,location,status,creator_stamp,creator_user)
+Values(1,'Hinjewadi Phase-3','Pune',1,'2020-01-05 10:10:00',1);
+INSERT INTO company(name,address,location,status,creator_stamp,creator_user)
+Values(2,'Hinjewadi Phase-2','Pune',1,'2020-01-12 09:00:00',2);
+INSERT INTO company(name,address,location,status,creator_stamp,creator_user)
+Values(3,'Koregaon Park','Mumbai',1,'2020-01-17 12:50:00',3);
+INSERT INTO company(name,address,location,status,creator_stamp,creator_user)
+Values(4,'Viman Nagar','Thane',1,'2020-01-20 15:44:00',4);
+INSERT INTO company(name,address,location,status,creator_stamp,creator_user)
+Values(5,'Camp City','Nagpur',1,'2020-01-19 13:00:40',5);
