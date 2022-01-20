@@ -66,3 +66,15 @@ INSERT INTO candidate_qualification(candidate_id,diploma,degree_name, is_degree_
 VALUES(4,0,'BSC',1,'Best',1,2021,1,81,82,1,'MIT College',1,6,1,'Java',1,'2021-02-20 05:03:33',4);
 INSERT INTO candidate_qualification(candidate_id,diploma,degree_name, is_degree_name_verified,employee_decipline,is_employee_decipline_verified,passing_year,is_passing_year_verified,aggr_per,final_year_per,is_final_year_per_verified,training_institute,is_training_institute_verified,training_duration_month,is_training_duration_month_verified,other_training,is_other_training_verified,creator_stamp,creator_user)
 VALUES(5,1,'MBA',1,'Good',1,2019,1,70,70,1,'D.Y Patil College',1,6,1,'Marketing',1,'2019-09-25 09:00:53',5);
+
+-------------------candidates_education_det_check------------------
+INSERT INTO candidates_education_det_check (id,candidate_id,field_name,is_verified,lastupd_stamp,lastupd_user,creator_stamp,creator_user)
+Values(1,1,1,1,'2022-01-16 12:00:53',5,'2022-01-17 10:00:00',1);
+INSERT INTO candidates_education_det_check (id,candidate_id,field_name,is_verified,lastupd_stamp,lastupd_user,creator_stamp,creator_user)
+Values(2,2,2,1,'2022-01-17 17:05:33',2,'2022-01-18 15:20:00',2);
+INSERT INTO candidates_education_det_check (id,candidate_id,field_name,is_verified,lastupd_stamp,lastupd_user,creator_stamp,creator_user)
+Values(3,3,3,1,'2022-01-18 15:10:03',3,'2022-01-19 12:20:50',3);
+INSERT INTO candidates_education_det_check (id,candidate_id,field_name,is_verified,lastupd_stamp,lastupd_user,creator_stamp,creator_user)
+Values(4,4,4,1,'2022-01-19 16:08:30',4,'2022-01-20 13:20:00',4);
+INSERT INTO candidates_education_det_check (id,candidate_id,field_name,is_verified,lastupd_stamp,lastupd_user,creator_stamp,creator_user)
+Values(5,5,5,1,'2022-01-20 08:40:00',5,'2022-01-20 16:22:00',5);
