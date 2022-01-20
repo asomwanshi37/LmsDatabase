@@ -42,3 +42,15 @@ INSERT INTO candidate_bank_det(candidate_id,name,account_num,is_account_num_veri
 VALUES(4,'Kotak Mahindra',356879541,1,'KMB00059721',1,'VMZC5897A',1,658974326,1,'2022-01-10 10:53:03',1);
 INSERT INTO candidate_bank_det(candidate_id,name,account_num,is_account_num_verified,ifsc_code,is_ifsc_code_verified,pan_number,is_pan_number_verified,addhaar_num,is_addhaar_num_verified,creator_stamp,creator_user)
 VALUES(5,'BOI',528978852,1,'BOI00068978',1,'LKIS6932A',1,369854721,1,'2022-01-20 12:55:44',1);
+
+-------------------------candidates_bank_det_check--------------------------
+INSERT INTO candidates_bank_det_check(id,candidate_id ,field_name ,is_verified,lastupd_stamp,lastupd_user,creator_stamp,creator_user)
+VALUES(1,1,1,1,'2022-01-20 15:16:20',1,'2022-01-20 15:16:11',1);
+INSERT INTO candidates_bank_det_check(id,candidate_id ,field_name ,is_verified,lastupd_stamp,lastupd_user,creator_stamp,creator_user)
+VALUES(2,2,1,1,'2022-01-20 15:16:20',1,'2022-01-20 15:16:11',1);
+INSERT INTO candidates_bank_det_check(id,candidate_id ,field_name ,is_verified,lastupd_stamp,lastupd_user,creator_stamp,creator_user)
+VALUES(3,3,1,1,'2022-01-20 15:16:20',1,'2022-01-20 15:16:11',1);
+INSERT INTO candidates_bank_det_check(id,candidate_id ,field_name ,is_verified,lastupd_stamp,lastupd_user,creator_stamp,creator_user)
+VALUES(4,4,1,1,'2022-01-20 15:16:20',1,'2022-01-20 15:16:11',1);
+INSERT INTO candidates_bank_det_check(id,candidate_id ,field_name ,is_verified,lastupd_stamp,lastupd_user,creator_stamp,creator_user)
+VALUES(5,5,1,1,'2022-01-20 15:16:20',1,'2022-01-20 15:16:11',1);
