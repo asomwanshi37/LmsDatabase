@@ -78,3 +78,17 @@ INSERT INTO candidates_education_det_check (id,candidate_id,field_name,is_verifi
 Values(4,4,4,1,'2022-01-19 16:08:30',4,'2022-01-20 13:20:00',4);
 INSERT INTO candidates_education_det_check (id,candidate_id,field_name,is_verified,lastupd_stamp,lastupd_user,creator_stamp,creator_user)
 Values(5,5,5,1,'2022-01-20 08:40:00',5,'2022-01-20 16:22:00',5);
+
+
+-------------------------------------candidate_docs---------------------------------
+INSERT INTO candidate_docs(candidate_id,doc_type,doc_path,status,creator_stamp,creator_user)
+VALUES(1,'Addhar Card','Document',1,'2022-01-20 16:22:00',1);
+INSERT INTO candidate_docs(candidate_id,doc_type,doc_path,status,creator_stamp,creator_user)
+VALUES(2,'PanCard','Document',1,'2022-01-19 15:00:00',2);
+INSERT INTO candidate_docs(candidate_id,doc_type,doc_path,status,creator_stamp,creator_user)
+VALUES(3,'Passport','Document',1,'2022-01-17 09:42:00',3);
+INSERT INTO candidate_docs(candidate_id,doc_type,doc_path,status,creator_stamp,creator_user)
+VALUES(4,'LightBill','Document',1,'2022-01-18 07:00:30',4);
+INSERT INTO candidate_docs(candidate_id,doc_type,doc_path,status,creator_stamp,creator_user)
+VALUES(5,'Driving L','Document',1,'2022-01-16 18:22:10',5);
+
