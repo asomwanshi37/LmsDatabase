@@ -29,3 +29,16 @@ VALUES(4,4,1,'2019-09-14 10:13:53',2,'2019-09-16 12:53:13',5);
 INSERT INTO candidates_personal_details_check( candidate_id,field_name,is_verified,lastupd_stamp,lastupd_user,creator_stamp, creator_user)
 VALUES(5,5,1,'2018-11-16 09:03:13',1,'2018-11-20 09:23:33',6);
 INSERT INTO candidates_personal_details_check( candidate_id,field_name,is_verified,lastupd_stamp,lastupd_user,creator_stamp, creator_user)
+
+
+-------------------------------Candidate_bank_details----------------------------
+INSERT INTO candidate_bank_det(candidate_id,name,account_num,is_account_num_verified,ifsc_code,is_ifsc_code_verified,pan_number,is_pan_number_verified,addhaar_num,is_addhaar_num_verified,creator_stamp,creator_user)
+VALUES(1,'SBI',1232568719,1,'SBIN0021745',1,'GJWPS8975',1,271655451,1,'2018-11-20 09:23:33',1);
+INSERT INTO candidate_bank_det(candidate_id,name,account_num,is_account_num_verified,ifsc_code,is_ifsc_code_verified,pan_number,is_pan_number_verified,addhaar_num,is_addhaar_num_verified,creator_stamp,creator_user)
+VALUES(2,'HDFC',1234567891,1,'HDFC0005826',1,'BJPS5899J',1,123658974,1,'2022-01-20 15:23:33',1);
+INSERT INTO candidate_bank_det(candidate_id,name,account_num,is_account_num_verified,ifsc_code,is_ifsc_code_verified,pan_number,is_pan_number_verified,addhaar_num,is_addhaar_num_verified,creator_stamp,creator_user)
+VALUES(3,'MGB',985624789,1,'MGB00098589',1,'ABCD9658A',1,356487652,1,'2012-01-19 16:25:13',1);
+INSERT INTO candidate_bank_det(candidate_id,name,account_num,is_account_num_verified,ifsc_code,is_ifsc_code_verified,pan_number,is_pan_number_verified,addhaar_num,is_addhaar_num_verified,creator_stamp,creator_user)
+VALUES(4,'Kotak Mahindra',356879541,1,'KMB00059721',1,'VMZC5897A',1,658974326,1,'2022-01-10 10:53:03',1);
+INSERT INTO candidate_bank_det(candidate_id,name,account_num,is_account_num_verified,ifsc_code,is_ifsc_code_verified,pan_number,is_pan_number_verified,addhaar_num,is_addhaar_num_verified,creator_stamp,creator_user)
+VALUES(5,'BOI',528978852,1,'BOI00068978',1,'LKIS6932A',1,369854721,1,'2022-01-20 12:55:44',1);
