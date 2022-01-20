@@ -92,3 +92,14 @@ VALUES(4,'LightBill','Document',1,'2022-01-18 07:00:30',4);
 INSERT INTO candidate_docs(candidate_id,doc_type,doc_path,status,creator_stamp,creator_user)
 VALUES(5,'Driving L','Document',1,'2022-01-16 18:22:10',5);
 
+-------------------------------user_details------------------------------------
+INSERT INTO user_details(email,first_name,last_name,password,contact_number,verified)
+Values('ajit12@gmail.com','Ajit','Ambad','Ajit@1234',5897587897,1);
+INSERT INTO user_details(email,first_name,last_name,password,contact_number,verified)
+Values('vinodm@gmail.com','Vinod','Mule','Vinod#5879',7012438978,1);
+INSERT INTO user_details(email,first_name,last_name,password,contact_number,verified)
+Values('akshayd@gmail.com','Akshay','Devmane','Akshay$125',980087897,1);
+INSERT INTO user_details(email,first_name,last_name,password,contact_number,verified)
+Values('sushilmule@gmail.com','Sushil','Mule','Sushil@0034',9997581616,1);
+INSERT INTO user_details(email,first_name,last_name,password,contact_number,verified)
+Values('dayaambad@gmail.com','Daya','Ambad','Daya#58234',9897890897,1);

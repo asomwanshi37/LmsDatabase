@@ -160,3 +160,16 @@ CREATE TABLE candidate_docs(
   CONSTRAINT `FK_candidate_docs_candidate_id` FOREIGN KEY (`candidate_id`) REFERENCES `fellowship_candidates` (`id`),
   PRIMARY KEY (id)
 );
+
+-------------------------------user_details------------------------------------
+CREATE TABLE user_details (
+  id int(11) NOT NULL AUTO_INCREMENT,
+  email varchar(50) NOT NULL,
+  first_name varchar(100) NOT NULL,
+  last_name varchar(100) NOT NULL,
+  password varchar(15) NOT NULL,
+  contact_number bigint(20) NOT NULL,
+  verified bit(1) DEFAULT NULL,
+  PRIMARY KEY (id),
+  UNIQUE KEY UK_4d9rdl7d52k8x3etihxlaujvh (email)
+); 
