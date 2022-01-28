@@ -1,0 +1,2 @@
+--------------------------------ExportData---------------------------
+select * from cpulogdata into outfile "C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\exportdata20.csv" fields terminated by ',' lines terminated by '\n';
